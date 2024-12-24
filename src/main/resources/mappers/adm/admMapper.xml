@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.scv.web.mappers.adm.AdmMapper">
+
+   <resultMap id="admVOResultMap" type="AdmVO">
+        <id property="me_id" column="admID"/> <!-- Use 'me_id' for property -->
+        <result property="me_pwd" column="admPW"/> <!-- Use 'me_pwd' for property -->
+    </resultMap>
+
+    <select id="login" resultMap="admVOResultMap">
+        SELECT *
+        FROM tbl_adm
+        WHERE admID = #{me_id}
+        AND admPW = #{me_pwd}
+    </select>
+
+</mapper>

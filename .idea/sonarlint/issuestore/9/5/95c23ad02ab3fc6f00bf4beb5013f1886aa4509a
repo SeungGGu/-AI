@@ -1,0 +1,16 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÉéÕşÿÿÿÿ8ıİ¾ÕÁ1
+q
+java:S1192("ODefine a constant instead of duplicating this literal "INVALID userPw" 3 times.(¢¯ìÕıÿÿÿÿ8şİ¾ÕÁ1
+q
+java:S1192)"TDefine a constant instead of duplicating this literal "redirect:/user/info" 7 times.(ØÜÅú8Ş¾ÕÁ1
+e
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¤úÙ8¨Ş¾ÕÁ1
+g
+java:S4488$"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(œË¿‘8ªŞ¾ÕÁ1
+Y
+java:S2441,"<Make "UserVO" serializable or don't store it in the session.(óÆ¯Ä8¬Ş¾ÕÁ1
+l
+java:S44882"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(­ñÜøÿÿÿÿ8­Ş¾ÕÁ1
+f
+java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8´Ş¾ÕÁ1

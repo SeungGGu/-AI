@@ -1,0 +1,17 @@
+
+M
+java:S2629("7Use the built-in formatting to construct this argument.(Ï³íÚ
+r
+java:S2629)"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ãÁİ–
+r
+java:S2629+"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ä‡®Ü
+M
+java:S2629/"7Use the built-in formatting to construct this argument.(ìá£«
+W
+java:S3457("AFormat specifiers should be used instead of string concatenation.(Ï³íÚ
+W
+java:S3457)"AFormat specifiers should be used instead of string concatenation.(ãÁİ–
+W
+java:S3457+"AFormat specifiers should be used instead of string concatenation.(ä‡®Ü
+W
+java:S3457/"AFormat specifiers should be used instead of string concatenation.(ìá£«

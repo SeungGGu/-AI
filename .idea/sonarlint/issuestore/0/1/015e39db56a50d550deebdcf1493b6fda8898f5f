@@ -1,0 +1,20 @@
+
+[	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(¨ğğ
+V
+java:S2184}"@Cast one of the operands of this addition operation to a "long".(¬ğıÊ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Š î»øÿÿÿÿ
+P	java:S899O";Do something with the "boolean" value returned by "delete".(ÏÖÅ
+d
+java:S4042O"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ÏÖÅ
+U	java:S899S";Do something with the "boolean" value returned by "delete".(Ê“®òúÿÿÿÿ
+i
+java:S4042S"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Ê“®òúÿÿÿÿ
+Y
+java:S4719h">Replace charset name argument with StandardCharsets.ISO_8859_1( Œç½ûÿÿÿÿ
+O
+java:S4719g"9Replace charset name argument with StandardCharsets.UTF_8(¾‚à
+W
+java:S1075p"ARefactor your code to get this URI from a customizable parameter.(ªÌîá
+@
+java:S1068"*Remove this unused "logger" private field.(Ãÿ½

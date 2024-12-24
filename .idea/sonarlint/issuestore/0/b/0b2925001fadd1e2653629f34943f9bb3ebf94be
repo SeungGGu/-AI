@@ -1,0 +1,9 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÏÓ¢–8»¿øŠÂ1
+b	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(âŞÏı8¼¿øŠÂ1
+j
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÓĞ¹Äÿÿÿÿÿ8Ë¿øŠÂ1
+g
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÚŞ•8Ì¿øŠÂ1
+g
+java:S4488+"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(·İßš8Ğ¿øŠÂ1

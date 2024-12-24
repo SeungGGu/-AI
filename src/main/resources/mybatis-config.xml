@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+        <typeAlias type="com.scv.web.article.domain.ArticleVO" alias="ArticleVO"/>
+        <typeAlias type="com.scv.web.reply.domain.ReplyVO" alias="ReplyVO"/>
+        <typeAlias type="com.scv.web.tutorial.domain.MessageVO" alias="MessageVO"/>
+        <!--<typeAlias type="com.scv.web.tutorial.domain.UserVO" alias="UserVO"/>-->
+        <typeAlias type="com.scv.web.user.domain.UserVO" alias="UserVO"/>
+        <typeAlias type="com.scv.web.adm.domain.AdmVO" alias="AdmVO"/>
+        <typeAlias type="com.scv.web.adm.domain.CommentVO" alias="CommentVO"/>
+        <typeAlias type="com.scv.web.adm.domain.ModifyVO" alias="ModifyVO"/>
+    </typeAliases>
+</configuration>

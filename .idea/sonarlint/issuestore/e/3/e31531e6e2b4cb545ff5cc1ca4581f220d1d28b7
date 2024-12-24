@@ -1,0 +1,22 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å»»˜ùÿÿÿÿ8ßöÁ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®²óíÿÿÿÿÿ8àöÁ1
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚½”¿şÿÿÿÿ8àöÁ1
+m	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êæò–8àöÁ1
+r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€±â‘øÿÿÿÿ8àöÁ1
+u	java:S116"YRename this field "modify_replyNo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä©÷•8“Û‹öÁ1
+w	java:S116"[Rename this field "modify_replyText" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ³É8¢›ŒöÁ1
+y	java:S116"]Rename this field "modify_replyWriter" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûš 8¢›ŒöÁ1
+u	java:S116	"YRename this field "modify_regDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óõüã8¢›ŒöÁ1
+{	java:S116
+"ZRename this field "modify_replyCtg" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁêõÀşÿÿÿÿ8¬¿ŒöÁ1
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§è‹8äöÁ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å»»˜ùÿÿÿÿ8åöÁ1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚõĞ8åöÁ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®²óíÿÿÿÿÿ8åöÁ1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şäƒ½8åöÁ1
+o	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚½”¿şÿÿÿÿ8åöÁ1
+j	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôë÷›8åöÁ1
+j	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êæò–8çöÁ1
+o	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºô²†øÿÿÿÿ8çöÁ1
+o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€±â‘øÿÿÿÿ8çöÁ1

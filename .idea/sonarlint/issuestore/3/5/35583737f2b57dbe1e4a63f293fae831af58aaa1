@@ -1,0 +1,13 @@
+
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ïÜúÿÿÿÿ
+e
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ëä¢Œşÿÿÿÿ
+\
+java:S3457"AFormat specifiers should be used instead of string concatenation.(›€Èüÿÿÿÿ
+V
+java:S3457"AFormat specifiers should be used instead of string concatenation.(ıù
+W
+java:S3457 "AFormat specifiers should be used instead of string concatenation.(Ôø„
+V	java:S125#"<This block of commented-out lines of code should be removed.(²õñÆşÿÿÿÿ
+V	java:S125."<This block of commented-out lines of code should be removed.(…ºç¯ıÿÿÿÿ

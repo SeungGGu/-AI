@@ -1,0 +1,20 @@
+
+`	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(ˆª±“ùÿÿÿÿ
+{
+java:S1192-"eDefine a constant instead of duplicating this literal "redirect:/article/paging/search/list" 3 times.(œ³Ÿ¢
+F
+java:S2629M"$Invoke method(s) only conditionally.(­íášùÿÿÿÿ8†Ã®á½1
+c
+java:S4488 "HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(áƒ¦Òøÿÿÿÿ
+e
+java:S4488&"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¦Å›Áşÿÿÿÿ
+c
+java:S44880"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÏÊÃ×ûÿÿÿÿ
+c
+java:S4488>"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ê¸õşÿÿÿÿ
+^
+java:S4488H"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ü³’ô
+`
+java:S4488S"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(œË¿‘
+`
+java:S4488b"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÖëÕ

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- CommentMapper.xml -->
+<mapper namespace="com.scv.web.mappers.adm.CommentMapper">
+    <resultMap id="commentVOResultMap" type="CommentVO">
+        <result column="reply_no" property="replyNo"/>
+        <result column="reply_text" property="replyText"/>
+        <result column="reply_writer" property="replyWriter"/>
+        <result column="reg_date" property="regDate"/>
+        <result column="reply_ctg" property="replyCtg"/>
+    </resultMap>
+
+    <resultMap id="modifyVOResultMap" type="ModifyVO">
+        <result column="modified_reply_no" property="modify_replyNo"/>
+        <result column="modified_reply_text" property="modify_replyText"/>
+        <result column="modified_reply_writer" property="modify_replyWriter"/>
+        <result column="modified_reg_date" property="modify_regDate"/>
+        <result column="modified_reply_ctg" property="modify_replyCtg"/>
+    </resultMap>
+
+    <select id="selectAllComments" resultMap="commentVOResultMap">
+        SELECT reply_no, reply_text, reply_writer, reg_date, reply_ctg
+        FROM tbl_reply
+    </select>
+
+    <select id="selectComments" resultMap="modifyVOResultMap">
+        SELECT modified_reply_no, modified_reply_text, modified_reply_writer, modified_reg_date, modified_reply_ctg
+        FROM tbl_modify
+    </select>
+
+    <update id="updateCommentCategoryByReplyNo">
+        UPDATE tbl_reply
+        SET reply_ctg = '일반문장'
+        WHERE reply_no IN
+        <foreach item="item" index="index" collection="list" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+
+    </update>
+
+    <update id="updateCommentCategory">
+        UPDATE tbl_reply
+        SET reply_ctg = #{category}
+        WHERE reply_no IN
+        <foreach item="item" index="index" collection="comments" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </update>
+
+    <insert id="insertIntoTblModify">
+        INSERT INTO tbl_modify (modified_reply_no, modified_reply_text, modified_reply_writer, modified_reg_date,
+        modified_reply_ctg, modification_date)
+        SELECT reply_no, reply_text, reply_writer, reg_date, #{category} AS modified_reply_ctg, NOW() AS
+        modification_date
+        FROM tbl_reply
+        WHERE reply_no IN
+        <foreach item="item" index="index" collection="comments" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </insert>
+</mapper>

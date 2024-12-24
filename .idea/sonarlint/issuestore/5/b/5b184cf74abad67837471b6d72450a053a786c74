@@ -1,0 +1,14 @@
+
+b	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Ê¹°8öÓ¨ŒÂ1
+b	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(Ûêíˆ8ÅşòÛÁ1
+j	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê¹°8ÔşòÛÁ1
+‰
+java:S1130-"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ê¹°8—Ô¨ŒÂ1
+‰
+java:S11306"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ûêíˆ8ÖşòÛÁ1
+g
+java:S4488<"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(íÖ‘8Öı¢¸À1
+X
+java:S2441F";Make "AdmVO" serializable or don't store it in the session.(³ñ²§8Ùı¢¸À1
+C
+java:S1452Z"&Remove usage of generic wildcard type.(ƒå¿»8à¨ĞºÀ1

@@ -1,0 +1,19 @@
+
+A
+java:S2629+"$Invoke method(s) only conditionally.(ğÎÉõ8À ë²¿1
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(áƒ¦Òøÿÿÿÿ
+e
+java:S4488&"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¦Å›Áşÿÿÿÿ
+c
+java:S44882"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÏÊÃ×ûÿÿÿÿ
+^
+java:S4488;"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ü¿Ä—
+c
+java:S4488B"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ê¸õşÿÿÿÿ
+^
+java:S4488L"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ü³’ô
+`
+java:S4488V"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(œË¿‘
+`
+java:S4488a"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÖëÕ
